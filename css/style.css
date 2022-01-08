@@ -15,7 +15,8 @@
 
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #16e0bd;
+    --clr-accent: #19AAF8;
+    --clr-gradient: linear-gradient(to right, #19aaf8, #4aa3ff, #8397ff, #bc84ff, #f067fd);
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -128,14 +129,14 @@ h3 {
 
 .section__subtitle--intro,
 .section__subtitle--about {
-    background: var(--clr-accent);
+    background: var(--clr-gradient);
     padding: 0.25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
 }
 
 .section__subtitle--work {
-    color: var(--clr-accent);
+    color: var(--clr-gradient);
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
 }
@@ -304,7 +305,7 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(../img/services-bg.jpg);
+    background-image: url(../img/christopher-gower-m_HRfLhgABo-unsplash.jpg);
     background-size: cover;
     background-blend-mode: multiply;
 
@@ -313,7 +314,8 @@ header {
 }
 
 .section__title--services {
-    color: var(--clr-accent);
+    
+    color: var(--clr-gradient);
     position: relative;
 }
 
