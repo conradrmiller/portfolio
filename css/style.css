@@ -185,6 +185,10 @@ header {
     text-decoration: none;
 }
 
+.nav__link-project {
+    font-size: var(--fs-h3);
+}
+
 .nav__link:hover {
     color: var(--clr-accent);
 }
