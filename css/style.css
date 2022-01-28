@@ -345,6 +345,9 @@ header {
         margin-left: auto;
         margin-right: auto;
     }
+    .service {
+        flex: 1 1 0;
+    }
 
     .service + .service {
         margin-left: 2em;
