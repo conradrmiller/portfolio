@@ -494,3 +494,9 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+.portfolio-item-individual-vertical {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
